@@ -1,0 +1,21 @@
+/* desktop */
+
+@media only screen  and (max-width: 1600px) {
+  .sm-site {
+    display: none;
+  }
+  .lg-site {
+    display: block;
+  }
+}
+
+/* mobile */
+
+@media only screen  and (max-width: 480px) {
+  .lg-site {
+    display: none;
+  }
+  .sm-site {
+    display: block;
+  }
+}
