@@ -1,1 +1,189 @@
+/* universal */
 
+html, body {
+  font-family: Helvetica;
+  font-size: 16px;
+  background-color: pink;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+#courses h2, #thesis h2 {
+  text-align: center;
+}
+
+div {
+  border: 1px solid black;
+}
+
+/* header */
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* main */
+
+main {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 64px;
+}
+
+section {
+  width: 100%;
+}
+
+/* banner */
+
+#banner {
+  background-color: #d8d8d8;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.banner-img {
+  border: 1px solid black;
+  width: 60%;
+}
+
+.banner-text {
+  width: 40%;
+  text-align: center;
+}
+
+.banner-text p {
+  font-size: 1.5rem;
+}
+
+.button {
+  background-color: #9b9b9b;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  margin-top: 1.5rem;
+  width: 90%;
+}
+
+.button a {
+  display: block;
+}
+
+/* information */
+
+#information {
+  display: flex;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.info-img {
+  width: 100%;
+}
+
+.main-info p {
+  font-size: 1.3rem;
+}
+
+.side-info {
+  width: 40%;
+}
+
+.side-container {
+  display: flex;
+  align-items: center;
+}
+
+/* courses */
+
+.courses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.course-links h3 {
+  border: 1px solid black;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.course-links a {
+  display: block;
+  padding: 16px 16px 24px 16px;
+}
+
+/* thesis */
+
+.thesis {
+  display: flex;
+}
+
+.video-container {
+  width: 60%;
+}
+
+#thesis-video {
+  width: 100%;
+}
+
+.other-thesis {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.choice-thesis {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* footer */
+
+footer {
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
