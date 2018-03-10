@@ -15,6 +15,12 @@
   .sm-site {
     display: block;
   }
+  header {
+    justify-content: space-around;
+  }
+  .logo {
+    padding: 0;
+  }
   #banner {
     flex-direction: column;
   }
@@ -22,11 +28,15 @@
     width: 100%;
   }
   .banner-text {
+    margin: 0;
     width: 100%;
   }
   .mobile-container {
     margin: 0 auto;
     width: 90%;
+  }
+  .side-img {
+    margin: 0;
   }
   .side-info {
     width: 100%;

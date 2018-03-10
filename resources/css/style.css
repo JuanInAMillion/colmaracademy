@@ -19,11 +19,13 @@ h1 {
 }
 
 h2 {
+  color: #404040;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 #courses h2, #thesis h2 {
@@ -49,6 +51,19 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  padding-left: 24px;
+}
+
+.colmar {
+  color: #333;
+}
+
+.academy {
+  color: #999;
+}
+
+.site-nav {
+  padding-right: 24px;
 }
 
 /* main */
@@ -74,12 +89,19 @@ section {
 
 .banner-img {
   border: 1px solid black;
+  margin: 24px 24px 32px 24px;
   width: 60%;
 }
 
 .banner-text {
-  width: 40%;
+  color: #404040;
+  line-height: 1.5;
   text-align: center;
+  width: 25%;
+}
+
+.banner-text h1 {
+  font-weight: bold;
 }
 
 .banner-text p {
@@ -87,7 +109,7 @@ section {
 }
 
 .button {
-  background-color: #9b9b9b;
+  background-color: #404040;
   color: white;
   padding: 1.5rem 0;
   text-align: center;
@@ -97,6 +119,7 @@ section {
 
 .button a {
   display: block;
+  color: white;
 }
 
 /* information */
@@ -109,6 +132,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 24px 24px 32px 24px;
   width: 60%;
 }
 
@@ -120,14 +144,23 @@ section {
   font-size: 1.3rem;
 }
 
-.side-info {
-  width: 40%;
-}
-
 .side-container {
   display: flex;
   align-items: center;
 }
+
+.side-img {
+  margin-left: 16px;
+}
+
+.side-info {
+  width:  36%;
+}
+
+.info {
+  line-height: 2;
+}
+
 
 /* courses */
 
@@ -152,6 +185,8 @@ section {
 .course-links a {
   display: block;
   padding: 16px 16px 24px 16px;
+  background-color: #d8d8d8;
+  color: #404040;
 }
 
 /* thesis */
