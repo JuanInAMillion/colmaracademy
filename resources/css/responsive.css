@@ -1,4 +1,4 @@
-/* desktop */
+/* desktop display */
 
 @media only screen and (max-width: 1600px) {
   .sm-site {
@@ -6,7 +6,7 @@
   }
 }
 
-/* mobile */
+/* mobile display */
 
 @media only screen and (max-width: 480px) {
   .lg-site {
