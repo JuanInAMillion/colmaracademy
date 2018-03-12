@@ -24,8 +24,12 @@
   #banner {
     flex-direction: column;
   }
-  .banner-hero {
+  .banner-left {
     padding: 0;
+    width: 100%;
+  }
+  .banner-right {
+    margin: 0;
     width: 100%;
   }
   .banner-text {
