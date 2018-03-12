@@ -34,11 +34,13 @@
   <main>
     <!-- banner -->
     <section id="banner">
-      <img class="banner-img" src="resources/images/banner.jpg" alt="banner">
+      <div class="banner-hero">
+        <img class="banner-img" src="resources/images/banner.jpg" alt="banner">
+      </div>
       <div class="banner-text">
         <h1>Learn Something New Everyday</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <span class="button"><a href="#">Start Here</a></span>
+        <a class="button" href="#">Start Here</a>
       </div>
     </section>
     <!-- end of #banner -->
@@ -46,23 +48,23 @@
     <!-- information -->
     <section id="information">
       <!-- main-info -->
-      <div class="main-info lg-site">
-        <img class="info-img" src="resources/images/information-main.jpg" alt="main info">
-        <h2>It doesn't hurt to keep practicing</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-        <p>Emanuel, Sr strategist at Hiring.com</p>
+      <div class="main-container lg-site">
+        <img class="main-img" src="resources/images/information-main.jpg" alt="main image">
+        <div class="main-info">
+          <h2>It doesn't hurt to keep practicing</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+          <p>Emanuel, Sr strategist at Hiring.com</p>
+        </div>
       </div>
       <!-- end of .main-info -->
 
       <!-- side-info -->
-      <div class="side-info">
+      <div class="side-info-container">
         <div class="mobile-container">
 
           <div class="side-container">
-            <div class="side-img">
-              <img class="lg-site" src="resources/images/information-orientation.jpg" alt="orientation">
-              <img class="sm-site" src="resources/images/information-orientation-mobile.jpg" alt="information">
-            </div>
+            <img class="side-img lg-site" src="resources/images/information-orientation.jpg" alt="orientation">
+            <img class="side-img sm-site" src="resources/images/information-orientation-mobile.jpg" alt="information">
             <div class="info">
               <h3>Orientation Date</h3>
               <p>Tues 10/11 &amp; Wed 10/12: 8am-3pm</p>
@@ -71,10 +73,8 @@
           </div>
 
           <div class="side-container">
-            <div class="side-img">
-              <img class="lg-site" src="resources/images/information-campus.jpg" alt="campus">
-              <img class="sm-site" src="resources/images/information-campus-mobile.jpg" alt="campus">
-            </div>
+            <img class="side-img lg-site" src="resources/images/information-campus.jpg" alt="campus">
+            <img class="side-img sm-site" src="resources/images/information-campus-mobile.jpg" alt="campus">
             <div class="info">
               <h3>Our Campus</h3>
               <p>Find which campus is close by you</p>
@@ -83,10 +83,8 @@
           </div>
 
           <div class="side-container">
-            <div class="side-img">
-              <img class="lg-site" src="resources/images/information-guest-lecture.jpg" alt="guest">
-              <img class="sm-site" src="resources/images/information-guest-lecture-mobile.jpg" alt="guest">
-            </div>
+            <img class="side-img lg-site" src="resources/images/information-guest-lecture.jpg" alt="guest">
+            <img class="side-img sm-site" src="resources/images/information-guest-lecture-mobile.jpg" alt="guest">
             <div class="info">
               <h3>Special Guest Lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatement</p>
@@ -110,7 +108,7 @@
           <img src="resources/images/course-software.jpg" alt="software engineering">
           <div class="course-info">
             <h3>Software Engineering</h3>
-            <p>COURSES</p>
+            <h4>COURSES</h4>
             <p>Web Development, Mobile Development, iOT, APIs</p>
           </div>
         </div>
@@ -118,7 +116,7 @@
           <img src="resources/images/course-computer-art.jpg" alt="computer art">
           <div class="course-info">
             <h3>Computer Art</h3>
-            <p>COURSES</p>
+            <h4>COURSES</h4>
             <p>Imaging &amp Design, Web Design, Motion Graphics &amp Visual Effects, Computer Animation</p>
           </div>
         </div>
@@ -126,7 +124,7 @@
           <img src="resources/images/course-design.jpg" alt="design">
           <div class="course-info">
             <h3>Design</h3>
-            <p>COURSES</p>
+            <h4>COURSES</h4>
             <p>User Experience Design, User Research, Visual Design</p>
           </div>
         </div>
@@ -134,7 +132,7 @@
           <img src="resources/images/course-data.jpg" alt="data">
           <div class="course-info">
             <h3>Data</h3>
-            <p>COURSES</p>
+            <h4>COURSES</h4>
             <p>Data Science, Big Data, SQL, Data Visualization</p>
           </div>
         </div>
@@ -142,7 +140,7 @@
           <img src="resources/images/course-business.jpg" alt="business">
           <div class="course-info">
             <h3>Business</h3>
-            <p>COURSES</p>
+            <h4>COURSES</h4>
             <p>Product Development, Business Development, Startup</p>
           </div>
         </div>
@@ -150,7 +148,7 @@
           <img src="resources/images/course-marketing.jpg" alt="marketing">
           <div class="course-info">
             <h3>Marketing</h3>
-            <p>COURSES</p>
+            <h4>COURSES</h4>
             <p>Analytics, Content Marketing, Mobile Marketing</p>
           </div>
         </div>
@@ -187,18 +185,19 @@
         </div>
 
         <div class="other-thesis lg-site">
-          <div class="choice-thesis">
-            <img src="resources/images/thesis-fisma.jpg" alt="fisma thesis">
-            <div class="thesis-text">
+          <div class="side-container">
+            <img class="side-img lg-site" src="resources/images/thesis-fisma.jpg" alt="fisma">
+            <div class="info">
               <h3>Fisma: Design and Prototype</h3>
               <p>Designer showcase of new prototype product</p>
             </div>
           </div>
-          <div class="choice-thesis">
-            <img src="resources/images/thesis-now-and-then.jpg" alt="now and then thesis">
-            <div class="thesis-text">
+
+          <div class="side-container">
+            <img class="side-img lg-site" src="resources/images/thesis-now-and-then.jpg" alt="now and then">
+            <div class="info">
               <h3>Now and Then</h3>
-              <p>Research study about New York</p>
+              <p>Research Study about New York</p>
             </div>
           </div>
         </div>

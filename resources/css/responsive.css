@@ -19,12 +19,13 @@
     justify-content: space-around;
   }
   .logo {
-    padding: 0;
+    margin: 0;
   }
   #banner {
     flex-direction: column;
   }
-  .banner-img {
+  .banner-hero {
+    padding: 0;
     width: 100%;
   }
   .banner-text {
@@ -37,8 +38,9 @@
   }
   .side-img {
     margin: 0;
+    width: 100%;
   }
-  .side-info {
+  .side-info-container {
     width: 100%;
   }
   .side-container {
@@ -48,7 +50,17 @@
   .side-img img {
     width: 100%;
   }
-  .video-container {
+  .info {
     width: 100%;
+  }
+  #courses {
+    background-color: white;
+  }
+  .video-container {
+    padding: 0;
+    width: 100%;
+  }
+  footer {
+    padding: 40px 0 16px 24px;
   }
 }
