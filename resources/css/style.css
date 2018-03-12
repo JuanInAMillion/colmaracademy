@@ -104,8 +104,8 @@ section:nth-child(2n+1) {
 
 .banner-text {
   line-height: 1.5;
-  text-align: center;
-  width: 40%;
+  width: 22rem;
+  margin-left: 4rem;
 }
 
 .banner-text p {
@@ -119,7 +119,7 @@ section:nth-child(2n+1) {
   padding: 1.5rem 0;
   text-align: center;
   margin-top: 1.5rem;
-  width: 90%;
+  width: 100%;
 }
 
 /* information */
