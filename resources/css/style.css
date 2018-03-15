@@ -110,7 +110,7 @@ section:nth-child(2n+1) {
 .banner-text {
   line-height: 1.5;
   margin-left: 2rem;
-  width: 22rem;
+  width: 80%;
 }
 
 .banner-text p {
