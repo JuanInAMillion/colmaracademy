@@ -3,7 +3,7 @@
 html, body {
   font-family: Helvetica;
   font-size: 16px;
-  color: #404040;
+  color: rgb(74, 107, 138);
 }
 
 span {
@@ -29,6 +29,27 @@ h3 {
   font-size: 1.4rem;
 }
 
+h1, h2, h3 {
+  color: rgb(15, 32, 49);
+}
+
+.site-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.align {
+  align-items: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
 /* header */
 
 header {
@@ -49,11 +70,7 @@ header {
 }
 
 .colmar {
-  color: #333;
-}
-
-.academy {
-  color: #999;
+  color: rgb(15, 32, 49);
 }
 
 .site-nav {
@@ -61,11 +78,11 @@ header {
 }
 
 .site-nav a {
-  color: #404040;
+  color: rgb(74, 107, 138);
 }
 
 .site-nav a:visited {
-  color: #404040;
+  color: rgb(74, 107, 138);
 }
 
 /* main */
@@ -81,15 +98,11 @@ section {
   width: 100%;
 }
 
-section:nth-child(2n+1) {
-  background-color: lightgray;
-}
-
 /* banner */
 
 #banner {
-  display: flex;
-  align-items: center;
+  background-color: rgb(74, 107, 138);
+  background-image: linear-gradient(to bottom, rgb(74, 107, 138), rgb(211, 219, 227));
   width: 100%;
 }
 
@@ -119,7 +132,7 @@ section:nth-child(2n+1) {
 
 .button {
   display: inline-block;
-  background-color: #404040;
+  background-color: rgb(15, 32, 49);
   color: white;
   padding: 1.5rem 0;
   text-align: center;
@@ -128,14 +141,10 @@ section:nth-child(2n+1) {
 }
 
 .button:hover {
-  background-color: gray;
+  background-color: rgb(74, 107, 138);
 }
 
 /* information */
-
-#information {
-  display: flex;
-}
 
 .main-container {
   border-right: 1px solid lightgray;
@@ -173,7 +182,7 @@ section:nth-child(2n+1) {
 }
 
 .side-container:hover {
-  background-color: lightgray;
+  background-color: rgb(211, 219, 227);
 }
 
 .side-img {
@@ -193,6 +202,11 @@ section:nth-child(2n+1) {
 
 /* courses */
 
+#courses {
+  background-color: rgb(211, 219, 227);
+  background-image: linear-gradient(to top, rgb(74, 107, 138), rgb(211, 219, 227));
+}
+
 #courses h2 {
   padding: 2rem 0;
 }
@@ -208,12 +222,12 @@ section:nth-child(2n+1) {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  width: 25rem;
+  width: 20rem;
 }
 
 .course-container img {
   height: auto;
-  width: 25rem;
+  width: 20rem;
 }
 
 .course-info {
@@ -238,8 +252,8 @@ section:nth-child(2n+1) {
 }
 
 .course-links a {
-  background-color: #d8d8d8;
-  color: #404040;
+  background-color: rgb(114, 140, 166);
+  color: rgb(15, 32, 49);
   display: block;
   padding: 1.5rem 1rem;
 }
@@ -275,7 +289,5 @@ section:nth-child(2n+1) {
 /* footer */
 
 footer {
-  display: flex;
-  justify-content: space-between;
   padding: 1rem 1.5rem 4rem;
 }
