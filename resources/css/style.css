@@ -58,6 +58,7 @@ header {
   position: fixed;
   height: 4rem;
   width: 100%;
+  z-index: 5;
 }
 
 .logo {
@@ -131,17 +132,18 @@ section {
 .button {
   display: inline-block;
   background-color: rgb(15, 32, 49);
-  transition: background-color 1s ease;
   color: white;
   font-size: 1.2rem;
   margin-top: 1.5rem;
   padding: 1.5rem 0;
   text-align: center;
   width: 100%;
+  transition: all 550ms ease-in;
 }
 
 .button:hover {
   background-color: rgb(74, 107, 138);
+  box-shadow: 0 10px 12px rgba(42, 77, 110, 0.9);
 }
 
 /* information */
@@ -179,11 +181,12 @@ section {
   border-bottom: 1px solid lightgray;
   display: flex;
   align-items: center;
-  transition: background-color 1s ease;
+  transition: all 550ms ease-in;
 }
 
 .side-container:hover {
   background-color: rgb(211, 219, 227);
+  box-shadow: 0 10px 12px rgba(42, 77, 110, 0.9);
 }
 
 .side-img {
@@ -224,27 +227,28 @@ section {
   flex-direction: column;
   margin: 1rem;
   width: 20rem;
-  transition: width 2s ease;
+  transition: all 550ms ease-in;
 }
 
 .course-container:hover {
   background-color: rgb(15, 32, 49);
+  box-shadow: 0 10px 12px rgba(42, 77, 110, 0.9);
   color: #fff;
-  width: 25rem;
+  transform: scale(1.1);
 }
 
 .course-container img {
   height: auto;
   width: 20rem;
-  transition: width 2s ease;
-}
-
-.course-container img:hover {
-  width: 25rem;
 }
 
 .course-info {
   padding: 0 1.25rem;
+  color: rgb(74, 107, 138);
+}
+
+.course-info:hover {
+  color: #fff;
 }
 
 .course-info h3, .course-info h4 {
@@ -266,7 +270,7 @@ section {
 
 .course-links a {
   background-color: rgb(114, 140, 166);
-  transition: background-color 1s ease;
+  transition: all 550ms ease-in;
   color: rgb(15, 32, 49);
   display: block;
   padding: 1.5rem 1rem;
@@ -274,6 +278,7 @@ section {
 
 .course-links a:hover {
   background-color: rgb(15, 32, 49);
+  box-shadow: 0 6px 12px rgba(42, 77, 110, 0.9);
   color: #fff;
 }
 
