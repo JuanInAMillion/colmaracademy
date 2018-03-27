@@ -11,6 +11,7 @@ span {
 }
 
 a {
+  color: rgb(74, 107, 138);
   text-decoration: none;
 }
 
@@ -36,22 +37,10 @@ h3 {
   width: 80%;
 }
 
-.flex-container {
-  display: flex;
-}
-
-.align {
-  align-items: center;
-}
-
-.between {
-  justify-content: space-between;
-}
-
 /* header */
 
 header {
-  background-color: white;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,14 +65,6 @@ header {
   padding-right: 1.5rem;
 }
 
-.site-nav a {
-  color: rgb(74, 107, 138);
-}
-
-.site-nav a:visited {
-  color: rgb(74, 107, 138);
-}
-
 /* main */
 
 main {
@@ -103,6 +84,11 @@ section {
   background-color: rgb(74, 107, 138);
   background-image: linear-gradient(to bottom, rgb(74, 107, 138), rgb(211, 219, 227));
   width: 100%;
+}
+
+#banner .site-container {
+  display: flex;
+  align-items: center;
 }
 
 .banner-left {
@@ -132,7 +118,7 @@ section {
 .button {
   display: inline-block;
   background-color: rgb(15, 32, 49);
-  color: white;
+  color: #fff;
   font-size: 1.2rem;
   margin-top: 1.5rem;
   padding: 1.5rem 0;
@@ -147,6 +133,10 @@ section {
 }
 
 /* information */
+
+#information .site-container {
+  display: flex;
+}
 
 .main-container {
   border-right: 1px solid lightgray;
@@ -222,7 +212,7 @@ section {
 }
 
 .course-container {
-  background-color: white;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -269,11 +259,11 @@ section {
 }
 
 .course-links a {
-  background-color: rgb(114, 140, 166);
-  transition: all 550ms ease-in;
+  background-color: rgb(74, 107, 138);
   color: rgb(15, 32, 49);
   display: block;
   padding: 1.5rem 1rem;
+  transition: all 550ms ease-in;
 }
 
 .course-links a:hover {
@@ -314,4 +304,9 @@ section {
 
 footer {
   padding: 1rem 1.5rem 4rem;
+}
+
+footer .site-container {
+  display: flex;
+  justify-content: space-between;
 }
